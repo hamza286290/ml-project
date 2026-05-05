@@ -1,0 +1,101 @@
+{
+    "Random Forest": {
+        "Normal": {
+            "precision": 0.9534883720930233,
+            "recall": 0.9939393939393939,
+            "f1-score": 0.973293768545994,
+            "support": 330.0
+        },
+        "Suspect": {
+            "precision": 0.9148936170212766,
+            "recall": 0.7413793103448276,
+            "f1-score": 0.819047619047619,
+            "support": 58.0
+        },
+        "Pathologic": {
+            "precision": 0.96875,
+            "recall": 0.8857142857142857,
+            "f1-score": 0.9253731343283582,
+            "support": 35.0
+        },
+        "accuracy": 0.950354609929078,
+        "macro avg": {
+            "precision": 0.9457106630381,
+            "recall": 0.8736776633328357,
+            "f1-score": 0.9059048406406571,
+            "support": 423.0
+        },
+        "weighted avg": {
+            "precision": 0.9494592023118954,
+            "recall": 0.950354609929078,
+            "f1-score": 0.9481791140104786,
+            "support": 423.0
+        }
+    },
+    "SVM": {
+        "Normal": {
+            "precision": 0.9206798866855525,
+            "recall": 0.9848484848484849,
+            "f1-score": 0.9516837481698389,
+            "support": 330.0
+        },
+        "Suspect": {
+            "precision": 0.75,
+            "recall": 0.5172413793103449,
+            "f1-score": 0.6122448979591837,
+            "support": 58.0
+        },
+        "Pathologic": {
+            "precision": 0.9333333333333333,
+            "recall": 0.8,
+            "f1-score": 0.8615384615384616,
+            "support": 35.0
+        },
+        "accuracy": 0.9054373522458629,
+        "macro avg": {
+            "precision": 0.868004406672962,
+            "recall": 0.7673632880529432,
+            "f1-score": 0.8084890358891613,
+            "support": 423.0
+        },
+        "weighted avg": {
+            "precision": 0.8983239462716288,
+            "recall": 0.9054373522458629,
+            "f1-score": 0.8976824754882403,
+            "support": 423.0
+        }
+    },
+    "Logistic Regression": {
+        "Normal": {
+            "precision": 0.9161849710982659,
+            "recall": 0.9606060606060606,
+            "f1-score": 0.9378698224852071,
+            "support": 330.0
+        },
+        "Suspect": {
+            "precision": 0.6530612244897959,
+            "recall": 0.5517241379310345,
+            "f1-score": 0.5981308411214953,
+            "support": 58.0
+        },
+        "Pathologic": {
+            "precision": 0.8928571428571429,
+            "recall": 0.7142857142857143,
+            "f1-score": 0.7936507936507936,
+            "support": 35.0
+        },
+        "accuracy": 0.8841607565011821,
+        "macro avg": {
+            "precision": 0.8207011128150682,
+            "recall": 0.7422053042742699,
+            "f1-score": 0.7765504857524986,
+            "support": 423.0
+        },
+        "weighted avg": {
+            "precision": 0.8781763392029217,
+            "recall": 0.8841607565011821,
+            "f1-score": 0.8793532103615671,
+            "support": 423.0
+        }
+    }
+}
